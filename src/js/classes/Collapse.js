@@ -21,13 +21,9 @@ export default class Collapse {
   }
 
   toggle(e) {
-    console.log(e.currentTarget.dataset.controls);
-    console.log("toggle");
-
     const selector = e.currentTarget.dataset.controls;
     const container = document.querySelector(`#${selector}`);
 
-    console.log(container);
     if (!container) return;
 
     const isOpen = container.classList.contains("is-open");
