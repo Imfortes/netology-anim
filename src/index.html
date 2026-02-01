@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <div id="app">
+
+    <div class="wrapper">
+        <h1>Task 1 - Collapse</h1>
+
+        <div class="grid-col grid-col-4">
+            <div class="container d-flex flex-column">
+                <a href="#collapseTask1" class="btn" data-toggle="collapse" data-controls="collapseTask1">Button 1</a>
+
+                <div id="collapseTask1" class="collapse">
+                    Some content from 1 collapse task
+                </div>
+            </div>
+
+            <div class="container d-flex flex-column">
+                <a href="#collapseTask2" class="btn" data-toggle="collapse" data-controls="collapseTask2">Button 2</a>
+
+                <div id="collapseTask2" class="collapse">
+                    Some content from 2 collapse task
+                </div>
+            </div>
+
+            <div class="container d-flex flex-column">
+                <a href="#collapseTask3" class="btn" data-toggle="collapse" data-controls="collapseTask3">Button 3</a>
+
+                <div id="collapseTask3" class="collapse">
+                    Some content from 3 collapse task
+                </div>
+            </div>
+
+            <div class="container d-flex flex-column">
+                <a href="#collapseTask4" class="btn" data-toggle="collapse" data-controls="collapseTask4">Button 4</a>
+
+                <div id="collapseTask4" class="collapse">
+                    Some content from 4 collapse task
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" id="callback-chat-btn" data-target="callback-chat" data-type="modal"></a>
+
+    <div class="widget" id="callback-chat">
+      <div class="widget__header">
+        <h3>Напишите нам</h3>
+        <a href="#" class="btn-close" id="callback-chat-close-btn">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.99967 9.41919L3.03136 14.3875C2.84547 14.5734 2.60888 14.6663 2.3216 14.6663C2.03432 14.6663 1.79773 14.5734 1.61184 14.3875C1.42595 14.2016 1.33301 13.965 1.33301 13.6777C1.33301 13.3905 1.42595 13.1539 1.61184 12.968L6.58016 7.99967L1.61184 3.03136C1.42595 2.84547 1.33301 2.60888 1.33301 2.3216C1.33301 2.03432 1.42595 1.79773 1.61184 1.61184C1.79773 1.42595 2.03432 1.33301 2.3216 1.33301C2.60888 1.33301 2.84547 1.42595 3.03136 1.61184L7.99967 6.58016L12.968 1.61184C13.1539 1.42595 13.3905 1.33301 13.6777 1.33301C13.965 1.33301 14.2016 1.42595 14.3875 1.61184C14.5734 1.79773 14.6663 2.03432 14.6663 2.3216C14.6663 2.60888 14.5734 2.84547 14.3875 3.03136L9.41919 7.99967L14.3875 12.968C14.5734 13.1539 14.6663 13.3905 14.6663 13.6777C14.6663 13.965 14.5734 14.2016 14.3875 14.3875C14.2016 14.5734 13.965 14.6663 13.6777 14.6663C13.3905 14.6663 13.1539 14.5734 12.968 14.3875L7.99967 9.41919Z" fill="black"/>
+          </svg>
+        </a>
+      </div>
+      <div class="widget__body">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button class="btn" data-type="submit">Отправить</button>
+      </div>
+    </div>
+
+   </div>
+
+</body>
+</html>
