@@ -1,7 +1,4 @@
-// import Collapse from "./classes/Collapse";
-
 document.addEventListener("DOMContentLoaded", function () {
-  // const collapse = new Collapse();
 
   const callbackChatBtn = document.querySelector("#callback-chat-btn");
   const callbackChat = document.querySelector("#callback-chat");
